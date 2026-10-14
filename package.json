@@ -1,0 +1,48 @@
+{
+  "name": "le-lieu-immersive",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
+    "@react-three/postprocessing": "3.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.468.0",
+    "next": "15.5.27",
+    "postprocessing": "6.39.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^2.5.5",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.30"
+    },
+    "postcss-nested": {
+      "postcss-selector-parser": "7.1.6"
+    },
+    "tailwindcss": {
+      "postcss-selector-parser": "7.1.6"
+    }
+  }
+}
